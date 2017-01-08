@@ -1,90 +1,84 @@
-29:472  0:138  Found BIOS RSDP at FF000
-29:472  0:000  Printing ACPI tables from RSDP FF000 ...
-29:472  0:000   FF000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-29:472  0:000    (Xsdt: 9C272078, Rsdt: 9C272028)
-29:472  0:000    9C272078: 'XSDT', 'A M I', Rev: 1, Len: 100
-29:472  0:000    9C272028: 'RSDT', 'A M I', Rev: 1, Len: 68
-29:472  0:000    Tables in Xsdt: 8
-29:472  0:000    0. 9C27C498: 'FACP', 'A M I', Rev: 5, Len: 268
-29:472  0:000        (Dsdt: 9C272170, Facs: 9C56A080, XDsdt: 9C272170, XFacs: 0)
-29:472  0:000        9C272170: 'DSDT', 'A M I', Rev: 2, Len: 41768
-29:473  0:000        9C56A080: 'FACS', Ver: 2, Len: 64
-29:473  0:000    1. 9C27C5A8: 'APIC', 'A M I', Rev: 3, Len: 256
-29:473  0:000    2. 9C27C6A8: 'FPDT', 'A M I', Rev: 1, Len: 68
-29:473  0:000    3. 9C27C6F0: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
-29:473  0:000    4. 9C27C730: 'HPET', 'A M I', Rev: 1, Len: 56
-29:473  0:000    5. 9C349920: 'DMAR', 'OEMDMAR', Rev: 1, Len: 180
-29:473  0:000    6. 9C27C7C0: 'SSDT', 'CpuPm', Rev: 2, Len: 839976
-29:473  0:000    7. 9C3498E8: 'BGRT', 'A M I', Rev: 0, Len: 56
-29:473  0:000    Tables in Rsdt: 8
-29:473  0:000    0. 9C2720E8: 'FACP', 'A M I', Rev: 2, Len: 132
-29:473  0:000        (Dsdt: 9C272170, Facs: 9C56A040)
-29:473  0:000        9C272170: 'DSDT', 'A M I', Rev: 2, Len: 41768
-29:474  0:000        9C56A040: 'FACS', Ver: 0, Len: 64
-29:474  0:000    1. 9C27C5A8: 'APIC', 'A M I', Rev: 3, Len: 256
-29:474  0:000    2. 9C27C6A8: 'FPDT', 'A M I', Rev: 1, Len: 68
-29:474  0:000    3. 9C27C6F0: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
-29:474  0:000    4. 9C27C730: 'HPET', 'A M I', Rev: 1, Len: 56
-29:474  0:000    5. 9C349920: 'DMAR', 'OEMDMAR', Rev: 1, Len: 180
-29:474  0:000    6. 9C27C7C0: 'SSDT', 'CpuPm', Rev: 2, Len: 839976
-29:474  0:000    7. 9C3498E8: 'BGRT', 'A M I', Rev: 0, Len: 56
-29:474  0:000  Found UEFI Acpi 2.0 RSDP at 9C272000
-29:474  0:000  Saving ACPI tables from RSDP 9C272000 to EFI\CLOVER\ACPI\origin ...
-29:474  0:000   9C272000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-29:474  0:000    (Xsdt: 9C272078, Rsdt: 9C272028)
-29:474  0:000    9C272078: 'XSDT', 'A M I', Rev: 1, Len: 100
-29:474  0:000    9C272028: 'RSDT', 'A M I', Rev: 1, Len: 68
-29:474  0:000    Tables in Xsdt: 8
-29:474  0:000    0. 9C27C498: 'FACP', 'A M I', Rev: 5, Len: 268
-29:474  0:000        (Dsdt: 9C272170, Facs: 9C56A080, XDsdt: 9C272170, XFacs: 0)
-29:474  0:000        9C272170: 'DSDT', 'A M I', Rev: 2, Len: 41768
-29:475  0:000        9C56A080: 'FACS', Ver: 2, Len: 64
-29:475  0:000    1. 9C27C5A8: 'APIC', 'A M I', Rev: 3, Len: 256
-29:475  0:000    2. 9C27C6A8: 'FPDT', 'A M I', Rev: 1, Len: 68
-29:475  0:000    3. 9C27C6F0: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
-29:475  0:000    4. 9C27C730: 'HPET', 'A M I', Rev: 1, Len: 56
-29:475  0:000    5. 9C349920: 'DMAR', 'OEMDMAR', Rev: 1, Len: 180
-29:475  0:000    6. 9C27C7C0: 'SSDT', 'CpuPm', Rev: 2, Len: 839976
-29:475  0:000    7. 9C3498E8: 'BGRT', 'A M I', Rev: 0, Len: 56
-29:475  0:000    Tables in Rsdt: 8
-29:475  0:000    0. 9C2720E8: 'FACP', 'A M I', Rev: 2, Len: 132
-29:475  0:000        (Dsdt: 9C272170, Facs: 9C56A040)
-29:475  0:000        9C272170: 'DSDT', 'A M I', Rev: 2, Len: 41768
-29:475  0:000        9C56A040: 'FACS', Ver: 0, Len: 64
-29:475  0:000    1. 9C27C5A8: 'APIC', 'A M I', Rev: 3, Len: 256
-29:475  0:000    2. 9C27C6A8: 'FPDT', 'A M I', Rev: 1, Len: 68
-29:475  0:000    3. 9C27C6F0: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
-29:475  0:000    4. 9C27C730: 'HPET', 'A M I', Rev: 1, Len: 56
-29:475  0:000    5. 9C349920: 'DMAR', 'OEMDMAR', Rev: 1, Len: 180
-29:475  0:000    6. 9C27C7C0: 'SSDT', 'CpuPm', Rev: 2, Len: 839976
-29:475  0:000    7. 9C3498E8: 'BGRT', 'A M I', Rev: 0, Len: 56
-29:475  0:000  Found UEFI Acpi 1.0 RSDP at 9C272000
-29:475  0:000  Printing ACPI tables from RSDP 9C272000 ...
-29:475  0:000   9C272000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-29:475  0:000    (Xsdt: 9C272078, Rsdt: 9C272028)
-29:475  0:000    9C272078: 'XSDT', 'A M I', Rev: 1, Len: 100
-29:475  0:000    9C272028: 'RSDT', 'A M I', Rev: 1, Len: 68
-29:475  0:000    Tables in Xsdt: 8
-29:475  0:000    0. 9C27C498: 'FACP', 'A M I', Rev: 5, Len: 268
-29:475  0:000        (Dsdt: 9C272170, Facs: 9C56A080, XDsdt: 9C272170, XFacs: 0)
-29:475  0:000        9C272170: 'DSDT', 'A M I', Rev: 2, Len: 41768
-29:476  0:000        9C56A080: 'FACS', Ver: 2, Len: 64
-29:476  0:000    1. 9C27C5A8: 'APIC', 'A M I', Rev: 3, Len: 256
-29:476  0:000    2. 9C27C6A8: 'FPDT', 'A M I', Rev: 1, Len: 68
-29:476  0:000    3. 9C27C6F0: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
-29:476  0:000    4. 9C27C730: 'HPET', 'A M I', Rev: 1, Len: 56
-29:476  0:000    5. 9C349920: 'DMAR', 'OEMDMAR', Rev: 1, Len: 180
-29:476  0:000    6. 9C27C7C0: 'SSDT', 'CpuPm', Rev: 2, Len: 839976
-29:476  0:000    7. 9C3498E8: 'BGRT', 'A M I', Rev: 0, Len: 56
-29:476  0:000    Tables in Rsdt: 8
-29:476  0:000    0. 9C2720E8: 'FACP', 'A M I', Rev: 2, Len: 132
-29:476  0:000        (Dsdt: 9C272170, Facs: 9C56A040)
-29:476  0:000        9C272170: 'DSDT', 'A M I', Rev: 2, Len: 41768
-29:477  0:000        9C56A040: 'FACS', Ver: 0, Len: 64
-29:477  0:000    1. 9C27C5A8: 'APIC', 'A M I', Rev: 3, Len: 256
-29:477  0:000    2. 9C27C6A8: 'FPDT', 'A M I', Rev: 1, Len: 68
-29:477  0:000    3. 9C27C6F0: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
-29:477  0:000    4. 9C27C730: 'HPET', 'A M I', Rev: 1, Len: 56
-29:477  0:000    5. 9C349920: 'DMAR', 'OEMDMAR', Rev: 1, Len: 180
-29:477  0:000    6. 9C27C7C0: 'SSDT', 'CpuPm', Rev: 2, Len: 839976
-29:477  0:000    7. 9C3498E8: 'BGRT', 'A M I', Rev: 0, Len: 56
+82:625  1:899  Found BIOS RSDP at FD960
+82:627  0:001  Printing ACPI tables from RSDP FD960 ...
+82:629  0:001   FD960: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+82:636  0:006    (Xsdt: DBFC9070, Rsdt: DBFC9028)
+82:637  0:001    DBFC9070: 'XSDT', 'A M I', Rev: 1, Len: 92
+82:642  0:005    DBFC9028: 'RSDT', 'A M I', Rev: 1, Len: 64
+82:647  0:005    Tables in Xsdt: 7
+82:649  0:001    0. DBFD3490: 'FACP', 'A M I', Rev: 5, Len: 268
+82:656  0:006        (Dsdt: DBFC9168, Facs: DC2C1080, XDsdt: DBFC9168, XFacs: 0)
+82:661  0:005        DBFC9168: 'DSDT', 'A M I', Rev: 2, Len: 41768
+82:667  0:006        DC2C1080: 'FACS', Ver: 2, Len: 64
+82:671  0:003    1. DBFD35A0: 'APIC', 'A M I', Rev: 3, Len: 256
+82:676  0:005    2. DBFD36A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+82:681  0:005    3. DBFD36E8: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+82:686  0:005    4. DBFD3728: 'HPET', 'A M I', Rev: 1, Len: 56
+82:691  0:005    5. DC0A08E0: 'DMAR', 'OEMDMAR', Rev: 1, Len: 180
+82:697  0:006    6. DBFD37B8: 'SSDT', 'CpuPm', Rev: 2, Len: 839976
+82:702  0:005    Tables in Rsdt: 7
+82:704  0:001    0. DBFC90E0: 'FACP', 'A M I', Rev: 2, Len: 132
+82:709  0:005        (Dsdt: DBFC9168, Facs: DC2C1040)
+82:713  0:003        DBFC9168: 'DSDT', 'A M I', Rev: 2, Len: 41768
+82:719  0:005        DC2C1040: 'FACS', Ver: 0, Len: 64
+82:722  0:003    1. DBFD35A0: 'APIC', 'A M I', Rev: 3, Len: 256
+82:727  0:005    2. DBFD36A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+82:734  0:006    3. DBFD36E8: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+82:739  0:005    4. DBFD3728: 'HPET', 'A M I', Rev: 1, Len: 56
+82:744  0:005    5. DC0A08E0: 'DMAR', 'OEMDMAR', Rev: 1, Len: 180
+82:749  0:005    6. DBFD37B8: 'SSDT', 'CpuPm', Rev: 2, Len: 839976
+82:754  0:005  Found UEFI Acpi 2.0 RSDP at DBFC9000
+82:755  0:001  Saving ACPI tables from RSDP DBFC9000 to EFI\CLOVER\ACPI\origin ...
+82:757  0:001   DBFC9000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+82:778  0:020    (Xsdt: DBFC9070, Rsdt: DBFC9028)
+82:781  0:003    DBFC9070: 'XSDT', 'A M I', Rev: 1, Len: 92 -> XSDT.aml
+82:793  0:011    DBFC9028: 'RSDT', 'A M I', Rev: 1, Len: 64 -> RSDT.aml
+82:805  0:011    Tables in Xsdt: 7
+82:806  0:001    0. DBFD3490: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+82:817  0:010        (Dsdt: DBFC9168, Facs: DC2C1080, XDsdt: DBFC9168, XFacs: 0)
+82:823  0:005        DBFC9168: 'DSDT', 'A M I', Rev: 2, Len: 41768 -> DSDT.aml
+82:839  0:016        DC2C1080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+82:851  0:012    1. DBFD35A0: 'APIC', 'A M I', Rev: 3, Len: 256 -> APIC.aml
+82:862  0:010    2. DBFD36A0: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+82:873  0:010    3. DBFD36E8: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60 -> MCFG.aml
+82:884  0:010    4. DBFD3728: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+82:895  0:010    5. DC0A08E0: 'DMAR', 'OEMDMAR', Rev: 1, Len: 180 -> DMAR.aml
+82:906  0:010    6. DBFD37B8: 'SSDT', 'CpuPm', Rev: 2, Len: 839976 -> SSDT-0.aml
+83:006  0:099    Tables in Rsdt: 7
+83:011  0:005    0. DBFC90E0: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+83:025  0:014        (Dsdt: DBFC9168, Facs: DC2C1040)
+83:029  0:003        DBFC9168: 'DSDT', 'A M I', Rev: 2, Len: 41768
+83:035  0:006        DC2C1040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+83:044  0:009    1. DBFD35A0: 'APIC', 'A M I', Rev: 3, Len: 256
+83:050  0:005    2. DBFD36A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+83:055  0:005    3. DBFD36E8: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+83:060  0:005    4. DBFD3728: 'HPET', 'A M I', Rev: 1, Len: 56
+83:067  0:007    5. DC0A08E0: 'DMAR', 'OEMDMAR', Rev: 1, Len: 180
+83:072  0:005    6. DBFD37B8: 'SSDT', 'CpuPm', Rev: 2, Len: 839976
+83:077  0:005  Found UEFI Acpi 1.0 RSDP at DBFC9000
+83:079  0:001  Printing ACPI tables from RSDP DBFC9000 ...
+83:080  0:001   DBFC9000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+83:087  0:006    (Xsdt: DBFC9070, Rsdt: DBFC9028)
+83:089  0:001    DBFC9070: 'XSDT', 'A M I', Rev: 1, Len: 92
+83:094  0:005    DBFC9028: 'RSDT', 'A M I', Rev: 1, Len: 64
+83:100  0:006    Tables in Xsdt: 7
+83:102  0:001    0. DBFD3490: 'FACP', 'A M I', Rev: 5, Len: 268
+83:107  0:005        (Dsdt: DBFC9168, Facs: DC2C1080, XDsdt: DBFC9168, XFacs: 0)
+83:112  0:005        DBFC9168: 'DSDT', 'A M I', Rev: 2, Len: 41768
+83:118  0:005        DC2C1080: 'FACS', Ver: 2, Len: 64
+83:122  0:003    1. DBFD35A0: 'APIC', 'A M I', Rev: 3, Len: 256
+83:127  0:005    2. DBFD36A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+83:132  0:005    3. DBFD36E8: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+83:138  0:006    4. DBFD3728: 'HPET', 'A M I', Rev: 1, Len: 56
+83:143  0:005    5. DC0A08E0: 'DMAR', 'OEMDMAR', Rev: 1, Len: 180
+83:148  0:005    6. DBFD37B8: 'SSDT', 'CpuPm', Rev: 2, Len: 839976
+83:153  0:005    Tables in Rsdt: 7
+83:155  0:001    0. DBFC90E0: 'FACP', 'A M I', Rev: 2, Len: 132
+83:160  0:005        (Dsdt: DBFC9168, Facs: DC2C1040)
+83:164  0:003        DBFC9168: 'DSDT', 'A M I', Rev: 2, Len: 41768
+83:170  0:005        DC2C1040: 'FACS', Ver: 0, Len: 64
+83:173  0:003    1. DBFD35A0: 'APIC', 'A M I', Rev: 3, Len: 256
+83:180  0:006    2. DBFD36A0: 'FPDT', 'A M I', Rev: 1, Len: 68
+83:185  0:005    3. DBFD36E8: 'MCFG', 'OEMMCFG.', Rev: 1, Len: 60
+83:190  0:005    4. DBFD3728: 'HPET', 'A M I', Rev: 1, Len: 56
+83:195  0:005    5. DC0A08E0: 'DMAR', 'OEMDMAR', Rev: 1, Len: 180
+83:200  0:005    6. DBFD37B8: 'SSDT', 'CpuPm', Rev: 2, Len: 839976

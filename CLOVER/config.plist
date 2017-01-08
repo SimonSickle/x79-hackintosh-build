@@ -23,15 +23,7 @@
 			</dict>
 			<dict>
 				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>Cpu0Ist</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>CpuPm</string>
+				<string>MCFG</string>
 			</dict>
 		</array>
 		<key>SSDT</key>
@@ -45,7 +37,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>npci=0x2000 kext-dev-mode=1</string>
+		<string>-v npci=0x2000</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -69,26 +61,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>No</string>
-		</dict>
-		<key>FakeID</key>
-		<dict>
-			<key>ATI</key>
-			<string>0x0</string>
-			<key>IMEI</key>
-			<string>0x0</string>
-			<key>IntelGFX</key>
-			<string>0x0</string>
-			<key>LAN</key>
-			<string>0x0</string>
-			<key>NVidia</key>
-			<string>0x0</string>
-			<key>SATA</key>
-			<string>0x0</string>
-			<key>WIFI</key>
-			<string>0x0</string>
-			<key>XHCI</key>
-			<string>0x0</string>
+			<string>1</string>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -98,10 +71,6 @@
 			<false/>
 		</dict>
 	</dict>
-	<key>DisableDrivers</key>
-	<array>
-		<string>Nothing</string>
-	</array>
 	<key>GUI</key>
 	<dict>
 		<key>Language</key>
@@ -131,7 +100,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>metal</string>
+		<string>Asus</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -144,6 +113,8 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
+		<key>InjectEDID</key>
+		<true/>
 		<key>NvidiaSingle</key>
 		<false/>
 	</dict>
@@ -167,7 +138,89 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>AirPortBrcm4360 - PCI Error 1</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QTnEdRs=
+				</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				QTnEZpA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Fix BT</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				SIX/dEdIiwc=
+				</data>
+				<key>Name</key>
+				<string>IOBluetoothFamily</string>
+				<key>Replace</key>
+				<data>
+				Qb4PAAAA60Q=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirPortBrcm4360 - fcvo</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				gflSqgAAdSk=
+				</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				gflSqgAAZpA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirPortBrcm4360 - PCI Error 3</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g33EBHQG
+				</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				g33EBGaQ
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirPortBrcm4360 - PCI Error 2</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QQ+3zTnBdQw=
+				</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				QQ+3zTnBZpA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>TrimEnable</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				AEFQUExFIFNTRAA=
@@ -188,9 +241,9 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>MLB</key>
-		<string>PULL_FROM_REAL_MAC</string>
+		<string></string>
 		<key>ROM</key>
-		<string>PULL_FROM_REAL_MAC</string>
+		<string></string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -204,8 +257,6 @@
 		<string>Mac-F60DEB81FF30ACF6</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string>C026394002CH4NW10</string>
 		<key>BoardType</key>
 		<integer>11</integer>
 		<key>ChassisAssetTag</key>
@@ -221,7 +272,7 @@
 		<key>ProductName</key>
 		<string>MacPro6,1</string>
 		<key>SerialNumber</key>
-		<string>PULL_FROM_REAL_MAC</string>
+		<string>ADDHERE</string>
 		<key>Trust</key>
 		<false/>
 		<key>Version</key>
