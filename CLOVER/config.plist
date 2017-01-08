@@ -19,11 +19,11 @@
 		<array>
 			<dict>
 				<key>Signature</key>
-				<string>DMAR</string>
+				<string>MCFG</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
-				<string>MCFG</string>
+				<string>DMAR</string>
 			</dict>
 		</array>
 		<key>SSDT</key>
@@ -113,8 +113,6 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
-		<key>InjectEDID</key>
-		<true/>
 		<key>NvidiaSingle</key>
 		<false/>
 	</dict>
@@ -138,66 +136,18 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>AirPortBrcm4360 - PCI Error 1</string>
+				<string>t1-10.9-10.12-AppleHDA/Realtek ALC1150</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				QTnEdRs=
+				ixnUEQ==
 				</data>
 				<key>Name</key>
-				<string>AirPortBrcm4360</string>
+				<string>AppleHDA</string>
 				<key>Replace</key>
 				<data>
-				QTnEZpA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Fix BT</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				SIX/dEdIiwc=
-				</data>
-				<key>Name</key>
-				<string>IOBluetoothFamily</string>
-				<key>Replace</key>
-				<data>
-				Qb4PAAAA60Q=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>AirPortBrcm4360 - fcvo</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				gflSqgAAdSk=
-				</data>
-				<key>Name</key>
-				<string>AirPortBrcm4360</string>
-				<key>Replace</key>
-				<data>
-				gflSqgAAZpA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>AirPortBrcm4360 - PCI Error 3</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				g33EBHQG
-				</data>
-				<key>Name</key>
-				<string>AirPortBrcm4360</string>
-				<key>Replace</key>
-				<data>
-				g33EBGaQ
+				AAnsEA==
 				</data>
 			</dict>
 			<dict>
@@ -218,6 +168,86 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>AirPortBrcm4360 - PCI Error 3</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g33EBHQG
+				</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				g33EBGaQ
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>t1-10.12-AppleHDA/Realtek ALC...</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				ihnUEQ==
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				AAAAAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirPortBrcm4360 - fcvo</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				gflSqgAAdSk=
+				</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				gflSqgAAZpA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>t1-AppleHDA/Resources/xml&gt;zml</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				eG1sLnps
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				em1sLnps
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirPortBrcm4360 - PCI Error 1</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QTnEdRs=
+				</data>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				QTnEZpA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>TrimEnable</string>
 				<key>Disabled</key>
 				<false/>
@@ -230,6 +260,22 @@
 				<key>Replace</key>
 				<data>
 				AAAAAAAAAAAAAAA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Fix BT</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				SIX/dEdIiwc=
+				</data>
+				<key>Name</key>
+				<string>IOBluetoothFamily</string>
+				<key>Replace</key>
+				<data>
+				Qb4PAAAA60Q=
 				</data>
 			</dict>
 		</array>
@@ -272,7 +318,7 @@
 		<key>ProductName</key>
 		<string>MacPro6,1</string>
 		<key>SerialNumber</key>
-		<string>ADDHERE</string>
+		<string>ADD HERE</string>
 		<key>Trust</key>
 		<false/>
 		<key>Version</key>
